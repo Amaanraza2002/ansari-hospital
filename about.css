@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    padding: 30px;
+    background: linear-gradient(135deg, #2b6777, #52ab98);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+p:hover {
+    transform: translateY(-5px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+ul li {
+    background: #2b6777;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #52ab98;
+    transform: scale(1.05);
+}
+
+footer {
+    padding: 20px;
+    background: #2b6777;
+    color: rgb(19, 2, 2);
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+}
